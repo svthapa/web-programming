@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+<link rel="stylesheet" href="./css/homePage.css" />
+<link rel="stylesheet" href="./css/headerFooter.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body{
+			margin:0;
+			padding:0;
+			height:100%;
+			background-color: #929D9E;
+			border: 0;
+	}
+	html{
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+
+
+</style>
+</head>
+<body>
+	<header>
+
+
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+			<h3 class="navbar-brand font-weight-bold pr-auto text-danger pt-0">Workout & Nutrition</h3>
+			<ul class="navbar-nav pt-0 ">
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="home.html">HOME</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="workoutPlans.htm">WORKOUT PLANS</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="nutrition.htm">NUTRITION</a>
+				</li>
+				<!-- <li class="navbar-item pt-0">
+					<a class="nav-link" href="login.html">Login</a>
+				</li> -->
+				<li id="c1" class="navbar-item pt-0">
+					<a class="nav-link" href="contact.html">ABOUT</a>
+				</li>
+
+				<li class="navbar-item pt-0">
+					<button id="login1" type="button" class="btn btn-light">Login</button>
+				</li>
+					<li id="logged" class="navbar-item pt-0">
+					<a class="nav-link" href="accountHome.html">AccountHome</a>
+				</li>
+				<li class="navbar-item pt-0" id="contact">
+					<a class="nav-link" href="contactUs.html">Contact</a>
+				</li>
+				<li id="signout" class="navbar-item pt-0">
+					<button id="signoutBtn" type="button" class="btn btn-light">SignOut</button>
+				</li>
+
+			</ul>
+		</nav>
+
+
+	</header>
+<!-- New div  -->
+	<div class="jumbotron">
+	<h1>Guide to Workout and Nutrition</h1>
+
+			<p >Working out can be rough if you have no clue what you are doing, you end up doing exercises in unthoughtful order, and often times you end up losing motiavtion to workout when you don't see the results you are looking for.<br><br><br>And even if you do go to the gym regularly, and you follow a strict workout plan but you don't focus on what you eat outside the gym, you will not see the timely progress that you should already be having. Nutrition plays a key role in gaining muscle mass as well as losing fat. A good workout plan and quality nutrition will lead to the lean muscle gain you are looking for and lose fat, whatever your needs may be.<br><br><br>Here, we provide the well-thought workout plans for you, and nutrition tips along with some meal plan options and recipes you can utilize for you to achieve those lean gains and look the most astheitc and fit you can be.</p>
+	</div>
+
+	<!-- ----------------- -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-7">
+			<h1>Does Cardio Kill Gains?</h1>
+			<p>Cardio can be a helpful tool when it comes to fat loss when used right.<br><br>Essentially, to lose fat you need to burn more calories than you use, which can be done either through eating in a deficit, or working out to burn exrtra calories, and ofcourse adding cardio to do the same. So if you want to <u>gain</u> muslce and lose <u>fat </u>at the same time you can add preferbaly morning cardio to your routine.<br><br>Cardio first thing in the morning has proven to be most beneficial if you want to elevate your metabolism rate and increase fat loss while gaining lean muslce.</p>
+			</div>
+		<div class="col-sm-5">
+				<img src="./pictures/pic.jpg" alt="cardio">
+		</div>
+	</div>
+	</div>
+
+	<footer>
+		<p class="one">Website by: Samrajya Thapa</p>
+		<p class="two">For more workout programs and meal plan options sign up. Follow on IG and FB to know more about me.</p>
+		<p class="date"></p>
+		<p class="fortuneDaily"></p>
+	</footer>
+
+	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+	<script type="text/javascript" src="./script/fb.js"></script>
+
+
+<script src="./script/time.js"></script>
+<script src="./script/check.js"></script>
+<script src="./script/login1.js"></script>
+</body>
+</html>

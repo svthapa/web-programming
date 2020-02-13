@@ -1,0 +1,17 @@
+.jumbotron{
+	height: 700px;
+}
+#more{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	left: 40%;
+	top: 150px;
+}
+p.more1{
+	font-size: 36pt;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Plans</title>
+<link rel="stylesheet" href="./css/plan.css" />
+<link rel="stylesheet" href="./css/headerFooter.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body{
+			margin:0;
+			padding:0;
+			height:100%;
+			background-color: #929D9E;
+			border: 0;
+	}
+	html{
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+
+</style>
+</head>
+<body>
+<header>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+			<h3 class="navbar-brand font-weight-bold pr-auto text-danger pt-0">Workout & Nutrition</h3>
+
+      <ul class="navbar-nav mr-auto">
+			<ul class="navbar-nav pt-0 ">
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="home.html">HOME</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="workoutPlans.htm">WORKOUT PLANS</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="nutrition.htm">NUTRITION</a>
+				</li>
+				<!-- <li class="navbar-item pt-0">
+					<a class="nav-link" href="login.html">LOGIN</a>
+				</li> -->
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="contact.html">ABOUT</a>
+				</li>
+
+				<li class="navbar-item pt-0">
+					<button id="login1" type="button" class="btn btn-light">Login</button>
+				</li>
+				<li id="logged" class="navbar-item pt-0">
+					<a class="nav-link" href="accountHome.html">AccountHome</a>
+				</li>
+				<li class="navbar-item pt-0" id="contact">
+	<a class="nav-link" href="contactUs.html">Contact</a>
+</li>
+				<li id="signout" class="navbar-item pt-0">
+					<button id="signoutBtn" type="button" class="btn btn-light">SignOut</button>
+				</li>
+			</ul>
+		</nav>
+
+</header>
+	<!-- ----------- -->
+<div class="container-fluid">
+	<h1>Workout Programs</h1>
+	<p>New workout programs will be added every once in a while so stay updated with our website.</p>
+</div>
+	<div class="container">
+		<h2>Upper Body /Lower Body Split</h2>
+		<p> This split focuses on more compound movements and works the whole upper body and lower body in a single day twice a week.</p>
+		<div class="row">
+			<div class="col-sm-6">
+				<table class="table table-bordered">
+					<thead>
+					<tr>Week A</tr>
+					<tr>
+						<th>Day</th>
+						<th>Workout</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>UPPER</td>
+						<td>
+							<ol>
+								<li>Bench Press 4x8</li>
+								<li>Overhead Press 4x8</li>
+								<li>Barbell Row 4x6</li>
+								<li>Dips 4x10</li>
+								<li>Barbell Curl 3x10</li>
+								<li>Shrugs 3x10</li>
+							</ol>
+						</td>
+					</tr>
+					<tr>
+						<td>LOWER</td>
+						<td>
+							<ol>
+								<li>Squats 5x5</li>
+								<li>Deadlift 3x6</li>
+								<li>Leg Press 4x8</li>
+								<li>Calf Raise 4x10</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+			<div class="col-sm-6">
+				<table class="table table-bordered">
+				<thead>
+				<tr>Week B</tr>
+					<tr>
+						<th>Day</th>
+						<th>Workout</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>UPPER</td>
+						<td>
+							<ol>
+								<li>Inclie Bench Press 4x3</li>
+								<li>Overhead Dumbell Press 4x8</li>
+								<li>Dumbell Row 4x8</li>
+								<li>Decline Barbell Press 4x8</li>
+								<li>Dumbell Hammer Curl 3x10</li>
+								<li>Cable Crossover 3x8</li>
+								<li>Shrugs 3x10</li>
+							</ol>
+						</td>
+					</tr>
+					<tr>
+						<td>LOWER</td>
+						<td>
+							<ol>
+								<li>Squats 3x8</li>
+								<li>Deadlift 4x3</li>
+								<li>Lunges 4x8</li>
+								<li>Squat Clean 4x5</li>
+								<li>Calf Raise 4x10</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+	</div>
+</div>
+
+	<footer>
+		<p class="one">Website by: Samrajya Thapa</p>
+		<p class="two">For more workout programs and meal plan options sign up. Follow on IG and FB to know more about me.</p>
+		<p class="date"></p>
+		<p class="fortuneDaily"></p>
+	</footer>
+	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+	<script type="text/javascript" src="./script/fb.js"></script>
+<script src="./script/time.js"></script>
+<script src="./script/check.js"></script>
+<script src="./script/login1.js"></script>
+</body>
+</html>

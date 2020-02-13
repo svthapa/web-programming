@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+<link rel="stylesheet" href="./css/headerFooter.css" />
+<link rel="stylesheet" href="./css/signup.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body{
+			margin:0;
+			padding:0;
+			height:100%;
+			background-color: #929D9E;
+			border: 0;
+	}
+	html{
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+
+
+</style>
+</head>
+
+<body id="signupPage">
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+			<h3 class="navbar-brand font-weight-bold pr-auto text-danger pt-0">Workout & Nutrition</h3>
+			<ul class="navbar-nav pt-0 ">
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="home.html">HOME</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="workoutPlans.htm">WORKOUT PLANS</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="nutrition.htm">NUTRITION</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="login.html">LOGIN</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<a class="nav-link" href="contact.html">CONTACT</a>
+				</li>
+								<li class="navbar-item pt-0" id="contact">
+					<a class="nav-link" href="contactUs.html">Contact Us</a>
+				</li>
+				<li class="navbar-item pt-0">
+					<button id="login1" type="button" class="btn btn-light">Login1</button>
+				</li>
+				<li id="logged" class="navbar-item pt-0">
+					<a class="nav-link" href="accountHome.html">Account Home</a>
+				</li>
+				<li id="signout" class="navbar-item pt-0">
+					<button id="signoutBtn" type="button" class="btn btn-light">Sign Out</button>
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+
+<div class=container-fluid>
+	<p>Enter your information to signup!</p>
+</div>
+<div class="second container-fluidr">
+
+<form id="signupForm">
+<div class="form-group">
+	<label for="email" id="email"><p>Email</p></label>
+	<input  class="form-control" type="text" placeholder="Enter Email" name="email" required>
+</div>
+<div class="form-group">
+	<label for="psw" id="pass"><p>Password</p></label>
+	<input class="form-control" type="password" placeholder="Enter Password" name="psw"  required>
+</div>
+	<button type="submit" class="btn btn-primary" id="btn">SignUp</button>
+</form>
+
+</div>
+<footer>
+		<p class="one">Website by: Samrajya Thapa</p>
+		<p class="two">For more workout programs and meal plan options sign up. Follow on IG and FB to know more about me.</p>
+		<p class="date"></p>
+		<p class="fortuneDaily"></p>
+</footer>
+	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+	<script type="text/javascript" src="./script/fb.js"></script>
+<script src="script/time.js"></script>
+<script src="./script/signup.js"></script>
+<script src="./script/check.js"></script>
+
+
+
+</body>

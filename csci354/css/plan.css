@@ -1,0 +1,64 @@
+
+body{
+	margin:0;
+}
+
+	/*end of nav bar css*/
+.container-fluid{
+	background-color: #6b778d;
+	margin:0;
+	height: 200px;
+}
+.container-fluid h1{
+	margin:0;
+	position: relative;
+	top: 70px;
+	text-align: center;
+	font-size: 36pt;
+	text-shadow: 2px 2px 4px black;
+}
+.container-fluid p{
+	text-align: center;
+	position: relative;
+	top:70px;
+	font-size: 16pt;
+	font-weight: 700;
+}
+.container{
+	margin:0;
+	width: 100%;
+	background-color: white;
+	height: 600px;
+
+}
+.container h2{
+	text-align: center;
+}
+@media (max-width: 800px){
+	.container-fluid{
+		margin-top: 150px;
+		height: 250px;
+	}
+	.container {
+		padding-top: 10px;
+		height: 1000px;
+	}
+}
+@media (max-width: 500px){
+	.container-fluid{
+		margin-top: 150px;
+		height: 300px;
+	}
+	.container-fluid h1{
+		padding-top: 25px;
+	}
+	.container {
+		padding-top: 10px;
+		height: 1100px;
+	}
+}
+
+
+
+
+
